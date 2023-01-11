@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>"select> внутри 2 option"</legend>
+        <select>
+            <option value="Front-end">Front-end</option>
+            <option value="Back-end">Back-end</option>
+        </select>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>"select> внутри 2 optgoup> внутри по 4 option"</legend>
+        <!-- Select with optgroup -->
+        <select>
+            <optgroup label="Классика кофе">
+                <option value="">Капучино</option>
+                <option value="">Латте</option>
+                <option value="">Американо</option>
+                <option value="">Эспрессо</option>
+            </optgroup>
+            
+            <optgroup label="Авторский кофе">
+                <option value="" disabled>Малиновый раф</option>
+                <option value="">Оранж кофе</option>
+                <option value="">Вишнёвый брауни</option>
+                <option value="">Что-то на ваш вкус</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Мультивыбор "select multiple"</legend>
+        <!-- Multiple select -->
+        <select multiple>
+            <option value="Front-end">Front-end</option>
+            <option value="Back-end">Back-end</option>
+            <option value="Full-stack">Full-stack</option>
+            <option value="Diletant">Diletant Diletant Diletant Diletant</option>
+        </select>
+    </fieldset>
+    <br><br>
+
+    <!-- Different options -->
+    <select>
+        <option value="Front-end">Front-end</option>
+        <option value="Back-end" label="Back-end">
+        <option value="sel" selected>Selected</option>
+        <option value="dis" disabled>Disabled</option>
+    </select>
+    <br>
+
+    <br>
+    <form>
+        <fieldset>
+            <fieldset>
+                <legend>"input type="radio" - Выбор одного варианта"</legend>
+                <label>
+                    <input type="radio" name="option">
+                    Вариант 1
+                </label><br>
+                <label>
+                    <input type="radio" name="option" checked>
+                    Вариант 2 (checked - вариант предвыбран)
+                </label><br>
+                <label>
+                    <input type="radio" name="option">
+                    Вариант 3
+                </label><br>
+                <label>
+                    <input type="radio" name="option">
+                    Вариант 4
+                </label><br>
+                <label>
+                    <input type="radio" name="option">
+                    Вариант 5
+                </label><br>
+            </fieldset>
+            <br>
+    
+            <fieldset>
+                <legend>"input type="checkbox" - Выбор нескольких вариантов"</legend>
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Вариант 1
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Вариант 2
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Вариант 3
+                </label><br>
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Вариант 4
+                </label>
+            </fieldset>
+        </fieldset>
+    </form>
+    <br><br>
+    <a href="https://github.com/YauhenKavalchuk/html5/blob/master/11_Form/index.html" target="_blank">Githab WebDev -- forms</a>
+    <br><br>
+    <a href="https://github.com/YauhenKavalchuk/html5/blob/master/12_Input_Types_Part_1/index.html" target="_blank">Githab WebDev -- inpit part.1</a>
+    <br><br>
+    <a href="https://github.com/YauhenKavalchuk/html5/blob/master/13_Input_Types_Part_2/index.html" target="_blank">Githab WebDev -- input part.2</a>
+</body>
+</html>
